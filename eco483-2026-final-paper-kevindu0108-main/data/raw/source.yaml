@@ -1,0 +1,16 @@
+health_ineq_online_table_*.csv:
+    obtained: 2025-01-27
+    source: https://healthinequality.org/data/
+    description: |
+        These are copies of the Data Tables from the Health Inequality Project website. They are part of the replication package for the following paper:
+
+        The Association between Income and Life Expectancy in the United States, 2001 - 2014.
+        Raj Chetty, Michael Stepner, Sarah Abraham, Shelby Lin, Benjamin Scuderi, Nicholas Turner, Augustin Bergeron, and David Cutler.
+        The Journal of the American Medical Association, April 11, 2016, Vol 315, No. 14
+
+auto.csv:
+    obtained: 2025-01-15
+    source: https://www.stata.com/manuals/dsysuse.pdf
+    description: |
+        This is a copy of the file loaded by running `sysuse auto` in Stata,
+        saved as a CSV file using `export delim`.
